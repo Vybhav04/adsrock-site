@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto Refresh Ad Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Auto Reload Every 10 Seconds -->
+  <script>
+    setTimeout(function() {
+      location.reload();
+    }, 10000); // 10 seconds
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 40px;
+    }
+
+    .ad-box {
+      margin: 20px auto;
+      width: 300px;
+      height: 300px;
+      background: #f1f1f1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>AdsRock Auto-Reloading Page</h1>
+
+  <!-- AD SCRIPT BLOCK -->
+  <div class='MainAdverTiseMentDiv'
+    data-publisher="eyJpdiI6IlJLdXRDRmVZWndBRm0wVWpuMURUTEE9PSIsInZhbHVlIjoiYW1pSTlHcmk2anRKcWNxcjRjSmRaUT09IiwibWFjIjoiOWMwMmIwOTcwZmJlMDk2Njk3YzgxY2UxMzliYzI2NGRmMjk2ODZjODU5NTk3MDA3MzUxZmU1MzA3ZmUwMzFkNyJ9"
+    data-adsize="300x300">
+  </div>
+  <script class="adScriptClass" src="https://adsrock.online/assets/ads/ad.js"></script>
+
+  <p>This page refreshes every 10 seconds. Ads are reloaded.</p>
+
+</body>
+</html>
